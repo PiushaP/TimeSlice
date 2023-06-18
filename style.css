@@ -14,26 +14,36 @@ body {
   
   h1 {
     color: carmine;
-    font-size: 32px;
-    margin: 0 0 10px;
-  }
+    font-size: 115px;
+    text-align: center;
+    margin-bottom: 2px;
+}
   
   .slogan {
     color: ThulianPink;
-    font-size: 20px;
-    margin: 0 0 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+
+
+}
+
+.input-field {
+    width: 100%;
+    box-sizing: border-box;
   }
+
   
   label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   
   input[type="text"],
   select {
     width: 100%;
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 5px;
     border: none;
     margin-bottom: 15px;
