@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TimeSlice</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>TimeSlice</h1>
+    <h2 class="slogan">Slice your schedule, time your success!</h2>
+    
+    <form id="timeSliceForm">
+      <label for="name">What is your name?</label>
+      <input type="text" id="name" required>
+
+      <label for="age">What age range are you in?</label>
+      <select id="age" required>
+        <option value="5-11">5 to 11 years</option>
+        <option value="12-18">12 to 18 years</option>
+        <option value="over-18">Over 18 years</option>
+      </select>
+
+      <label for="difficulty">What is the difficulty of the material you are studying?</label>
+      <select id="difficulty" required>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+
+      <label for="activity">Which activity do you prefer to do the most during breaks?</label>
+      <select id="activity" required>
+        <option value="physical">Physical</option>
+        <option value="relaxing">Relaxing</option>
+        <option value="social">Social</option>
+        <option value="eating">Eating</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="output" class="hidden">
+      <h2 id="outputName"></h2>
+      <p id="outputTime"></p>
+      <p id="outputActivity"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
