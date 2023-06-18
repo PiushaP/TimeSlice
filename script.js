@@ -45,33 +45,33 @@ document.getElementById("timeSliceForm").addEventListener("submit", function(eve
   
     if (age === "5-11") {
       if (activity === "physical") {
-        breakActivity = "Recess";
+        breakActivity = "Have Recess";
       } else if (activity === "relaxing") {
         breakActivity = "Play with Legos";
       } else if (activity === "social") {
-        breakActivity = "Play Board Games with Friends";
+        breakActivity = "Play board games with friends";
       } else {
-        breakActivity = "Eat a Snack or Drink Water";
+        breakActivity = "Eat a healthy snack and drink water";
       }
     } else if (age === "12-18") {
       if (activity === "physical") {
-        breakActivity = "Stretching";
+        breakActivity = "Do stretching exercises";
       } else if (activity === "relaxing") {
-        breakActivity = "Listen to Music";
+        breakActivity = "Listen to your favorite music";
       } else if (activity === "social") {
-        breakActivity = "Chat with Friends";
+        breakActivity = "Chat with friends";
       } else {
-        breakActivity = "Have a Snack";
+        breakActivity = "Have a healthy snack";
       }
     } else {
       if (activity === "physical") {
-        breakActivity = "Stretching";
+        breakActivity = "Go for a walk outside";
       } else if (activity === "relaxing") {
-        breakActivity = "Meditation";
+        breakActivity = "Practice meditation techniques";
       } else if (activity === "social") {
-        breakActivity = "Chat with Friends";
+        breakActivity = "Chat with friends";
       } else {
-        breakActivity = "Have a Drink";
+        breakActivity = "Have a drink of water or coffee break";
       }
     }
   
